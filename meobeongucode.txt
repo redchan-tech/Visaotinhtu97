@@ -1,0 +1,164 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Meo Beo Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Ui"})
+local Tab = Window:MakeTab({
+	Name = "Information",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Script H4CK",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Status!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab4 = Window:MakeTab({
+	Name = "settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Link server: https://discord.gg/yY9z43PQ37",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+        https://discord.gg/yY9z43PQ37
+end
+})
+Tab:AddButton({
+    Name: "Onwer script - sivuong_lathat",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        sivuong_lathat(name account discord)
+end
+})
+Tab:AddButton({
+    Name: "sivuong_lathat(1183699262127734814) discord",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded 
+end
+})
+Tab:AddButton({
+    Name: "Join server discord to know more!",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        nothing
+end
+})
+Tab2:AddButton({
+    Name: "redz Hub (Blox Fruits)",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+end
+})
+Tab2:AddButton({
+    Name: "Tbao Hub (Hunty Zombie)",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubHuntyZombie"))()
+end
+})
+Tab2:AddButton({
+    Name: "Tbao Hub (Build a Plane)",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubBuildPlane"))()
+end
+})
+Tab2:AddButton({
+    Name: "Tbao Hub (Hypershot) ",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubHypershot"))()
+end
+})
+Tab2:AddButton({
+    Name: "Tbao Hub (99 Night in the forest x key)",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubNightintheForest"))()
+end
+})
+Tab2:AddToggle({
+    Name: "key Tbao Hub 99 night:lafdyhrpxe",
+    Default = false,
+    Callback = function(Value)
+       print(Value)
+  end
+})
+Tab2:AddButton({
+    Name: "infinite yield",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end
+})
+Tab2:AddButton({
+    Name: "Yarhm (mm2-forsaken-universal) ",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+end
+})
+Tab2:AddButton({
+    Name: "Leave fast [fake kick (don't worry)]",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://pastefy.app/RSGnx9Tz/raw"))()
+end
+})
+Tab2:AddButton({
+    Name: "Fly x v1",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XSodiez-dev/Fly-X-V1/refs/heads/main/Fly%20X%20V1.lua"))()
+end
+})
+Tab2:AddButton({
+    Name: "HoHo Hub (Universal)",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        _G.loadCustomId = "b358ee69695f62450471edf52317559a"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+end
+})
+Tab2:AddButton({
+    Name: "Turbo lite ngu của meo beo lazy (Fix lag)",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+end
+})
+Tab2:AddButton({
+    Name: "need more script if you have pls join server discord",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        sivuong_lathat(name account discord)
+end
+})
+Tab3:AddToggle({
+	Name = "This is where you can see your status and notif...",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+Tab3:AddButton({
+    Name: "Join Discord to know more!",
+    Callback = function()
+        repeat wait(5) until game:IsLoaded
+        loadstring(game:HttpGet("https://pastefy.app/2oOfmjLb/raw"))()
+end
+})
+
